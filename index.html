@@ -4,13 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NETFLIX CLONE</title>
+        <title>Aniflix</title>
         <link rel="stylesheet" href="style/main.css">
+
+        <!--Responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <!--Owl CSS-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     </head>
     <body>
+        
         <header>
             <div class="container">
-                <h2 class="logo">NETFLIX</h2>
+                <h2 class="logo">ANIFLIX</h2>
                 <nav>
                     <a href="#">Início</a>
                     <a href="#">Séries</a>
@@ -23,14 +31,16 @@
         <main>
             <div class="filme-principal">
                 <div class="container">
-                    <h3 class="titulo">Anitta: Made in Honório</h3>
+                    <h3 class="titulo">Anitta: Made In Honório</h3>
                     <p class="descricao">De Honório Gurgel para o mundo. Anitta levou o funk para outro patamar e agora vai mostrar como chegou lá. Prepare-se, a temperatura vai subir!</p>
 
                     <div class="botoes">
                         <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
                             ASSISTIR AGORA
                         </button>
                         <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
@@ -38,5 +48,48 @@
             </div>
         </main>
 
+        <div class="carrossel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/vaianitta.jpg" alt="Vai Anitta" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/madeinhonorio.jpg" alt="Made In Honório" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/homecoming.jpg" alt="Homecoming" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/rebelde.jpg" alt="Rebelde" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/thepolitician.jpg" alt="The Politician" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/legallyblonde.jpg" alt="Legally Blonde" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/catchmeifyoucan.jpg" alt="Catch Me If You Can" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/joker.jpg" alt="Joker" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/blindspot.jpg" alt="Blindspot" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/catchmeifyoucan.jpg" alt="Catch Me If You Can" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/elite.jpg" alt="Elite" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="/js/owl/jquery.min.js"></script>
+        <script src="/js/owl/owl.carousel.min.js"></script>
+        <script src="/js/owl/setup.js"></script>
+        
     </body>
 </html>
