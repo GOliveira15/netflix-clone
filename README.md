@@ -1,2 +1,2 @@
 # netflix-clone
-Recriando a Interface do Netflix.
+Recriando a Interface da Netflix.
